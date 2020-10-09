@@ -6,6 +6,19 @@ body{
   font-family: 'Jost', sans-serif;
 
 }
+.delete{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Jost', sans-serif;
+  width: 100px;
+  height: 40px;
+border-color:#1abc9c;
+  color: #1abc9c;
+background-color: #ffffff;
+margin-top: 20px;
+  transition: 0.3s ease-in;
+}
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -51,6 +64,7 @@ form button {
   color: white;
   margin-top: 20px;
     transition: 0.3s ease-in;
+    border-color:#1abc9c;
 }
 form button:hover{
   background-color: white;

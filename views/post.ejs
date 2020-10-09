@@ -1,4 +1,7 @@
 <%- include("partials/header"); -%>
 
-<h1> <%=Title%> </h1>
+<h1> <%=title%> </h1>
 <p> <%=body%> </p>
+<form class="delete" action="/delete" method="post">
+  <button type="submit" class="delete" name="yash" value=<%=id%>>Delete</button>
+</form>
